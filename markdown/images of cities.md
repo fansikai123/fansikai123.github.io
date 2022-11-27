@@ -1,3 +1,5 @@
+[TOC]
+
 
 
 ### Introduction
@@ -72,8 +74,7 @@ Through reviewing the existing theories, knowledge and experience in architectur
       The bar chart represents the difference between two distances, which is the result of distance between locals in two cities minus the distance between tourists in the two cities. Green represents positive results and red represents negative results.
 
 
-
-#### Conclusion
+### Conclusion
 
 We find that the visual spatial characteristics of Beijing, Ningbo and Taiyuan are not "one side" either in terms of statistical distribution or distance comparison, especially in terms of scale, naturalness, enclosure and color. We cannot find a city that is significantly more similar in every dimension between these three cities, and no city can be completely different from the other two cities. Therefore, we believe that "a thousand cities with one image" is an oversimplified and inaccurate statement.  At the same time, the perception difference between "locals and tourists" also exists in various dimensions, but it cannot be found from the comparison of the three cities that the differences between the two groups of people generally exist. 
 

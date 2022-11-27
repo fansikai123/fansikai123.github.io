@@ -665,6 +665,183 @@ a {
 }
 
 
+<!-- <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script> -->
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+<script src="http://yandex.st/highlightjs/6.2/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<!--侧栏目录生成代码-->
+<script>
+    //标题序号计数器
+    var hCount = [0, 0, 0, 0, 0, 0];
+    //设置计数器
+    function setHCount(number) {
+        //当前计数器加一
+        hCount[number - 1]++;
+        for (var i = number, length = hCount.length; i < length; i++) {
+            //子目录计数器全部置零
+            hCount[i] = 0;
+        }
+    }
+    //重命名目录名称
+    function setHTagValue(item, number) {
+        //获取标题名
+        var text = $(item).get(0).innerHTML;
+        //初始化空字符串
+        var before = "";
+        //生成序号
+        for (var i = 0, length = hCount.length; i < number; i++) {
+            if (i < number - 1)
+                before += hCount[i] + ".";
+            else
+                before += hCount[i] + " ";
+        }
+        //在标题前面加上序号
+        $(item).get(0).innerHTML = before + text;
+    }
+    function renameHTag(item) {
+        var tag = $(item).get(0).localName;
+        if (tag === "h1") {
+            setHCount(1);
+           //console\.log("捕获到标签:%s", tag);
+            setHTagValue(item, 1);
+        }
+        if (tag === "h2") {
+            setHCount(2);
+            //console.log("捕获到标签:%s", tag);
+            setHTagValue(item, 2);
+        }
+        if (tag === "h3") {
+            setHCount(3);
+            //console.log("捕获到标签:%s", tag);
+            setHTagValue(item, 3);
+        }
+        if (tag === "h4") {
+            setHCount(4);
+            //console.log("捕获到标签:%s", tag);
+            setHTagValue(item, 4);
+        }
+        if (tag === "h5") {
+            setHCount(5);
+            //console.log("捕获到标签:%s", tag);
+            setHTagValue(item, 5);
+        }
+        if (tag === "h6") {
+            setHCount(6);
+            //console.log("捕获到标签:%s", tag);
+            setHTagValue(item, 6)
+        }
+    }
+    $(document).ready(function () {
+        $("h1,h2,h3,h4,h5,h6").each(function (i, item) {
+            //给<H>类标签编号
+            renameHTag(item);
+            //获取标签的名字,h1,还是h2
+            var tag = $(item).get(0).localName;
+            //为该标签设置id属性
+            $(item).attr("id", "wow" + i);
+            //添加一个页内超链接,并设置class选择器
+            //      $("#category").append('<a class="new'+tag+'" href="#wow'+i+'">'+$(this).text()+'</a></br>');
+            $("#category").append('<a class="new' + tag + '" href="#wow' + i + '">' + $(item).text() + '</a></br>');
+            //为每一个标题超链接的class属性设置左边距
+            $(".newh1").css("margin-left", 0);
+            $(".newh2").css("margin-left", 20);
+            $(".newh3").css("margin-left", 40);
+            $(".newh4").css("margin-left", 60);
+            $(".newh5").css("margin-left", 80);
+            $(".newh6").css("margin-left", 100);
+        });
+        //设置class选择器为.book-body的html内容
+        $(".book-body").html($(".book-body").nextAll())
+    });
+</script>
+<style type="text/css">
+    @media (max-width: 1600px) {
+        .book-body {
+            /* padding-left: 200px; */
+            padding-right: 0px;
+        }
+    }
+    @media (max-width: 1400px) {
+        .book-body {
+            /* padding-left: 200px; */
+            padding-right: 0px;
+        }
+    }
+    @media (max-width: 1200px) {
+        .book-body {
+            /* padding-left: 300px; */
+            padding-left: 0px;
+        }
+    }
+    @media (max-width: 700px) {
+        .book-body {
+            padding-left: 0px;
+        }
+    }
+    @media (min-width: 600px) {
+        #category {
+            /* 绝对定位 */
+            position: fixed;
+            /* left: 20px; */
+            /* 目录显示的位置 */
+            right: 0px;
+            top: 0;
+            /* 目录栏的高度,这里设置为60%主要是为了不挡住返回顶部和折叠按钮 */
+            height: 79%;
+            /* 开启垂直滚动条 */
+            overflow-y: scroll;
+            /* 开启水平滚动条 */
+            overflow-x: scroll;
+        }
+    }
+    @media (-webkit-max-device-pixel-ratio: 1) {
+        ::-webkit-scrollbar-track-piece {
+            background-color: #FFF
+        }
+        ::-webkit-scrollbar {
+            width: 6px;
+            height: 6px
+        }
+        ::-webkit-scrollbar-thumb {
+            background-color: #c2c2c2;
+            background-clip: padding-box;
+            min-height: 28px
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background-color: #A0A0A0
+        }
+    }
+</style>
+<script>
+    // id="category" οnclick="showOrCloseCategory()"
+    function showOrCloseCategory() {
+        var id = document.getElementById("category");
+        var book_body=document.getElementById("book_body");
+        //如果展开了
+        if (id.style.display == 'block') {
+            //console.log("开始展开");
+            id.style.display='none';
+            id.style.width="0%";
+            book_body.style.width="100%";
+            book_body.style.paddingleft=0;
+        }
+        //如果被折叠了
+        else if (id.style.display =='none') {
+            //console.log("开始折叠");
+            id.style.display = 'block';
+            book_body.style.width="90%";
+            id.style.width="20%"
+        }
+    }
+</script>
+<!--返回顶部-->
+<a href="javascript:scroll(0,0)" style="position:fixed;float:right;right:40px;top:80%">返回顶部</a>
+<button onclick="showOrCloseCategory()" style="position:fixed;float:right;right:40px;top:85%">折叠/展开</button>
+<!--文章主体部分-->
+<div class="book-body" id="book_body" style="width:90%;display:block"> </div>
+<!--目录栏，设置占用宽度为20%可以根据实际情况设置-->
+<div  class="book-summary" id="category" style="width:20%;display:block" ></div>
+
 </style><title>VR</title>
 </head>
 <body class='typora-export os-windows'><div class='typora-export-content'>
@@ -686,11 +863,12 @@ a {
     padding: 2px;">
        Figure2: A perspective of the 8 schemes  
     </div>
-</center><iframe height="498" width="510" src="video\VR_lab.mp4">
-### The Eight Different  Test  Scheme</body></iframe><h3 id='emotion-measurement'><span> Emotion Measurement </span></h3><p><span>A situation will arouse  two kinds of  emotional responses: </span><strong><span>Peripheral nervous system and Central nervous system</span></strong><span>. So we recorded the subjects&#39; objective physiological indicators, such as HR and EDA with the measurement Instrument. Meanwhile, we recored the subjective assessment ,which included PA and NA standard questionnaires and five kinds of  important emotions according to Zamanifard(2019):</span></p><center class="half">
+</center>
+<iframe class="iframe_video" height="498" width="510" src="https://player.bilibili.com/player.html?aid=903099322&amp;bvid=BV1rP4y1X7EH&amp;cid=903895041&amp;page=1&quot;"> </iframe><h3 id='emotion-measurement'><span>Emotion Measurement </span></h3><p><span>A situation will arouse  two kinds of  emotional responses: </span><strong><span>Peripheral nervous system and Central nervous system</span></strong><span>. So we recorded the subjects&#39; objective physiological indicators, such as HR and EDA with the measurement Instrument. Meanwhile, we recored the subjective assessment ,which included PANAS standard questionnaires and five kinds of  important emotions according to Zamanifard(2019). In the end, we invite 30 students to take part in our experiment.</span></p><center class="half">
     <img src="https://fsk-tuchaung.oss-accelerate.aliyuncs.com/img/image-20221125153250462.png" width="300" height="300">
     <img src="https://fsk-tuchaung.oss-accelerate.aliyuncs.com/img/捕获13.JPG" width="300" height="300">
-</center><center class="half">
+</center>
+<center class="half">
     <img src="https://fsk-tuchaung.oss-accelerate.aliyuncs.com/img/微信图片_20221125153916.png" width="400" height="400">
         <br>
     <br>
@@ -700,7 +878,7 @@ a {
     padding: 2px;">
        Figure3: Indexes of Measurement
     </div>
-</center><p>&nbsp;</p><iframe height="498" width="510" src="video\scheme introduction.mp4"></body></iframe><p>&nbsp;</p><p>&nbsp;</p><h3 id='result'><span>Result</span></h3><center class="half">
+</center><p>&nbsp;</p><iframe class="iframe_video" height="498" width="510" src="https://player.bilibili.com/player.html?aid=518104688&amp;bvid=BV1Dg411p7Xk&amp;cid=903889997&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe><p>&nbsp;</p><h3 id='result'><span>Result</span></h3><center class="half">
     <img src="https://fsk-tuchaung.oss-accelerate.aliyuncs.com/img/vr_1.png">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
@@ -715,6 +893,14 @@ a {
     display: inline-block;
     color: #999;
     padding: 2px;">
-       Figure3: Eye movement recording.<br></div></center><p>&nbsp;</p><h4 id='conclusion'><span>Conclusion</span></h4><ol start='' ><li><p><span>If you want to improve the </span><strong><span>walking experience</span></strong><span> in the business street (related to Safety, Comfort, Pleasure and PA-NA):</span></p><ul><li><p><span>Use vertical shop signboards instead of horizontal signboards.</span></p></li><li><p><span>Keep the parking  away from pedestrians as far as possible.</span></p></li><li><p><span>Use shade trees as alee-trees to keep higher enclosure rather than shrubs .</span></p></li><li><p><span>Keep the facades in one color scheme or as more as possible.</span></p><p>&nbsp;</p></li></ul></li><li><p><span>If  you want to </span><strong><span>Vitality</span></strong><span>（related to HR, EDA, Inclusive, Activity):</span></p><ul><li><span>Pay attention to the design of the entrance and the layout of the street text, which are the focuses of pedestrians&#39; attention.</span></li><li><span>Keep the vision  open in the appropriate place.</span></li><li><span>Keep the facades in contrast color scheme.</span></li></ul></li></ol><p>&nbsp;</p></div></div>
+       Figure5: Eye movement recording.<br></div></center><p>&nbsp;</p><center class="half">
+    <img src="https://fsk-tuchaung.oss-accelerate.aliyuncs.com/img/捕获123.JPG">
+        <br>
+    <br>
+    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    display: inline-block;
+    color: #999;
+    padding: 2px;">
+       Figure6: Evaluation Comparisons between Design and Non-design majors background.<br></div></center><h4 id='conclusion'><span>Conclusion</span></h4><ol start='' ><li><p><span>If you want to improve the </span><strong><span>walking experience</span></strong><span> in the business street (related to Safety, Comfort, Pleasure and PA-NA):</span></p><ul><li><p><span>Use vertical shop signboards instead of horizontal signboards.</span></p></li><li><p><span>Keep the parking  away from pedestrians as far as possible.</span></p></li><li><p><span>Use shade trees as alee-trees to keep higher enclosure rather than shrubs .</span></p></li><li><p><span>Keep the facades in one color scheme or as more as possible.</span></p><p>&nbsp;</p></li></ul></li><li><p><span>If  you want to </span><strong><span>Vitality</span></strong><span>（related to HR, EDA, Inclusive, Activity):</span></p><ul><li><span>Pay attention to the design of the entrance and the layout of the street text, which are the focuses of pedestrians&#39; attention.</span></li><li><span>Keep the vision  open in the appropriate place.</span></li><li><span>Keep the facades in contrast color scheme.</span></li></ul></li></ol><p>&nbsp;</p><h4 id='reference'><span>Reference:</span></h4><p><span>Ekman, P. (1992). An argument for basic emotions. </span><em><span>Cognition and Emotion</span></em><span>, </span><em><span>6</span></em><span>(3–4), 169–200. </span><a href='https://doi.org/10.1080/02699939208411068' target='_blank' class='url'>https://doi.org/10.1080/02699939208411068</a></p><p><span>Ewing, R., &amp; Handy, S. (2009). Measuring the Unmeasurable: Urban Design Qualities Related to Walkability. </span><em><span>Journal of Urban Design</span></em><span>, </span><em><span>14</span></em><span>(1), 65–84. </span><a href='https://doi.org/10.1080/13574800802451155' target='_blank' class='url'>https://doi.org/10.1080/13574800802451155</a></p><p><span>Frijda, N. H. (1988). The laws of emotion. </span><em><span>American Psychologist</span></em><span>, </span><em><span>43</span></em><span>(5), 349–358. </span><a href='https://doi.org/10.1037/0003-066X.43.5.349' target='_blank' class='url'>https://doi.org/10.1037/0003-066X.43.5.349</a></p><p><span>Gifford, R. (2014). Environmental Psychology Matters. </span><em><span>Annual Review of Psychology</span></em><span>, </span><em><span>65</span></em><span>(1), 541–579. </span><a href='https://doi.org/10.1146/annurev-psych-010213-115048' target='_blank' class='url'>https://doi.org/10.1146/annurev-psych-010213-115048</a></p><p><span>Mauss, I. B., &amp; Robinson, M. D. (2009). Measures of emotion: A review. </span><em><span>Cognition and Emotion</span></em><span>, </span><em><span>23</span></em><span>(2), 209–237. </span><a href='https://doi.org/10.1080/02699930802204677' target='_blank' class='url'>https://doi.org/10.1080/02699930802204677</a></p><p><span>Shu, L., Xie, J., Yang, M., Li, Z., Li, Z., Liao, D., Xu, X., &amp; Yang, X. (2018). A Review of Emotion Recognition Using Physiological Signals. </span><em><span>Sensors</span></em><span>, </span><em><span>18</span></em><span>(7), 2074. </span><a href='https://doi.org/10.3390/s18072074' target='_blank' class='url'>https://doi.org/10.3390/s18072074</a></p><p><span>Zamanifard, H., Alizadeh, T., Bosman, C., &amp; Coiacetto, E. (2019). Measuring experiential qualities of urban public spaces: Users’ perspective. </span><em><span>Journal of Urban Design</span></em><span>, </span><em><span>24</span></em><span>(3), 340–364. </span><a href='https://doi.org/10.1080/13574809.2018.1484664' target='_blank' class='url'>https://doi.org/10.1080/13574809.2018.1484664</a></p></div></div>
 </body>
 </html>

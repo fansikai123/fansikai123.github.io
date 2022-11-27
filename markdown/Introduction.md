@@ -1,3 +1,7 @@
+[TOC]
+
+
+
 ### Introduction
 
 The issue of "social segregation" , which refers to the segregation of the  social stratification in urban space, is a traditional focus of geography, sociology and economics. It is generally believed that severe social  segregation is primarily a phenomenon observed in the New World and the Third World and is not significant in East Asia, the former Soviet Union and Western Europe. However, this conclusion is based on the "static observation" of social segregation, which represents class agglomeration and division in the perspective of residential space such as the "brownstone district - slum" dichotomy. Therefore, we can explore whether the spatial pattern in the  "dynamic perspective" shows a different phenomenon of social segregation if the movement of people is considered on the basis of the static population distribution.
