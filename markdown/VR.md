@@ -36,7 +36,7 @@ We aim to transform the a commercial street in a  urban renewal project. Accordi
        Figure2: A perspective of the 8 schemes  
     </div>
 </center>
-<iframe height=498 width=510 src=//player.bilibili.com/player.html?aid=903099322&bvid=BV1rP4y1X7EH&cid=903895041&page=1" > </iframe>
+<iframe class="iframe_video"  height=498 width=510 src=//player.bilibili.com/player.html?aid=903099322&bvid=BV1rP4y1X7EH&cid=903895041&page=1" > </iframe>
 
 
 ###  Emotion Measurement 
@@ -47,7 +47,6 @@ A situation will arouse  two kinds of  emotional responses: **Peripheral nervous
     <img src="https://fsk-tuchaung.oss-accelerate.aliyuncs.com/img/image-20221125153250462.png"width="300" height="300"/>
     <img src="https://fsk-tuchaung.oss-accelerate.aliyuncs.com/img/捕获13.JPG" width="300" height="300"/>
 </center>
-
 <center class="half">
     <img src="https://fsk-tuchaung.oss-accelerate.aliyuncs.com/img/微信图片_20221125153916.png"width="400" height="400"/>
         <br>
@@ -61,9 +60,9 @@ A situation will arouse  two kinds of  emotional responses: **Peripheral nervous
 </center>
 
 
+<iframe class="iframe_video" height=498 width=510  src="//player.bilibili.com/player.html?aid=518104688&bvid=BV1Dg411p7Xk&cid=903889997&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
 
-<iframe height=498 width=510  src="//player.bilibili.com/player.html?aid=518104688&bvid=BV1Dg411p7Xk&cid=903889997&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
 
 
