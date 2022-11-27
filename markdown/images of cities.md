@@ -1,7 +1,5 @@
 [TOC]
 
-
-
 ### Introduction
 
 From the perspective of Critical regionalism, the domination of modernist "International Style" architecture is considered as a global problem (Eggener, 2002; Frampton, 1993).  There has been a long history of the criticism of the " a thousand cities with one image " style in China, too.
