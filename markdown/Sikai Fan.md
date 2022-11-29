@@ -1,0 +1,205 @@
+
+
+<a href="index.html">[Chinese Page]</a>
+
+<h2 align="center">Sikai Fan</h2>
+
+<p align="center"> Landscape Architcture Postgraduate
+<p align="center"><a href="https://www.cala.pku.edu.cn/"> College of Architecture and Landscape ,Peking University ,Beijing</a></p> 
+<p align="center">Tel :+86 18291971545   |  E-mail: sikai@stu.pku.edu.cn </p>
+
+### About me
+
+------
+
+I am currently an undergraduate student at College of Architecture and Landscape ,Peking University. I plan to get the master's degree in June 2023.
+Before that, I obtained the Bachelor of Engineering degree in Xi' an University of Architecture and Technology in June 2020.
+During my postgraduate period, my major work is quantifying perceptual environment characteristics based on spatio-temporal mobile data and street view images. 
+Morever, my research interests include: Urban planning and design, urban analytics and digital humanities,
+especially geographic images' morphological patterns' potential relationships with the law of design, environmet perception, nonvisual socioeconomic attributes and urban history.
+
+
+
+### Education
+
+------
+
+<b>2020.09 ~ Present&emsp;&emsp;<a href="https://www.cala.pku.edu.cn/">Master of Landscape Architecture, Peking University</a></b>
+
+* GPA: 3.73/4.0  <a href="markdown/pdf/樊思恺_在校生电子成绩单.pdf">[Chinese Transcript]</a><a href="markdown/pdf/樊思恺_在校生英文电子成绩单.pdf">[English Transcript]</a></p>
+
+* Major Courses: Urban Planning and Design, Urban Computing, Urban History , Carbon Neutral</p>
+
+
+<ul>
+<li><p>Majority: Material Forming and Control Engineering（2014-2015）；Landscape and Architecture（2015-2020）</p>
+</li>
+<li><p>GPA: 3.16/5.0 <a href="markdown/pdf/中文成绩单_1244520234796462580.pdf">[Chinese Transcript]</a></p>
+</li>
+</li>
+<li><p>Major Courses: Landscape Planning and Design, Architecture History, Architecture Design, Ecology of Landscape </p>
+</li>
+<li><p>Awards: 2015',<b>The Third Prize</b>, National English Competition for College Student  </p>
+</li>
+</ul>
+### Research Experience
+
+<b>Undergraduate Work</b>
+
+* Tao Li, Zhendong Lei & <b>Sikai Fan</b>.(2019).Study on the overall arrangement and architectural characteristics of Abakh 
+  Khoja Mazar in Xinjiang[J].Traditional Chinese Architecture and Gardens(02),41-44..<a href="markdown/pdf/新疆阿帕克霍加麻扎的布局和建筑特征研究_李涛.pdf">[PDF]</a>
+<!DOCTYPE HTML>
+<html>
+<body>
+<details>
+<summary>Abstract.</summary>
+The Apakhogarza is the largest and most influential extant Islam in our country Jiao Mazha ancient architecture cluster, which concentrated reflects the Uygur Mazha architecture construction in Xinjiang region
+Concept and artistic achievement, this article on the Apakhogamanza's overall layout, architectural elements and construction
+The architectural features are analyzed, pointing out the specific characteristics of the complex in terms of layout and individual buildings,
+And analyzes the main characteristics of architecture in spatial form, construction system and decorative art, as the
+The preservation and renewal of architecture and regional architecture creation in Xinjiang region provide reference.
+</details>
+</body>
+</html>
+</li>
+</p>
+</ul>
+
+<!DOCTYPE HTML>
+<html>
+<body>
+<ul>
+<li><p>Tao Li, Hua Guo, Huibin Li, <b>Sikai Fan</b>.(2019).Measurement and Analysis of Summer Thermal Environment of Traditional 
+Large-Space Buildings in Southern Xinjiang[J].South Architecture(04):66-71.<a href="markdown/pdf/南疆传统大空间建筑的夏季热环境实测分析_李涛.pdf">[PDF]</a>
+<details>
+<summary>Abstract.</summary>
+<p>In order to understand the indoor and outdoor summer thermal environments of traditional largespace buildings in southern Xinjiang under the typical hot-arid climate, the temperature and the relative humidity of
+the main tomb, inner hall, side hall, and outer hall of the Grand Mosque, and the outdoor environment in the Apakh
+Khoka Mazar in Kashgar were measured. We found that the temperature difference between day and night outside
+was remarkable during the summer days in Kashgar, and the thermal stability of the main tomb chamber was
+better than that of the inner and outer halls of the Great Mosque. The main reasons for the good thermal stability of
+the main tomb chamber were the large thermal inertia of the enclosure structure materials, the small opening area
+and building shape coefficient, and the thermal buffer zone inside. The protruding depth of the outer hall of the
+Great Mosque was closely related to the angle of the sun. Outdoor greening and water as an underlying surface
+had better cooling and humidifying effects than the square. The results could serve a reference for the indoor and
+outdoor climate response design of local modern large-space buildings</p>
+</details>
+</body>
+</html>
+</li>
+</p>
+</ul>
+<b>Postgraduate Course Work</b>
+
+<ul>
+<li><p> "Folding Beijing": A study of social spatial segregation from the perspective of spatio-temporal interaction in Beijing<a href="markdown/pdf/Folding Peking Introduction.html">[Details]</a></i><br /></p><details>
+<summary>Abstract.</summary>
+<p>The issue of "social segregation" , which refers to the segregation of the  social stratification in urban space, 
+is a traditional focus of geography, sociology and economics. It is generally believed that severe social  segregation 
+is primarily a phenomenon observed in the New World and the Third World and is not significant in East Asia, the former Soviet Union 
+and Western Europe. However, this conclusion is based on the "static observation" of social segregation, which represents class agglomeration 
+and division in the perspective of residential space such as the "brownstone district - slum" dichotomy. Therefore, we can explore whether the 
+spatial pattern in the  "dynamic perspective" shows a different phenomenon of social segregation if the movement of people is considered on the
+ basis of the static population distribution.</p>
+</details>
+</body>
+</html>
+</li>
+</ul>
+<ul>
+<li><p>Evidence-based Design Supported by Virtual Reality Technology: Improvement of Function and Experience of Commercial Blocks in Urban Renewal<a href="markdown/pdf/VR.html">[Details]</a></i></p>
+<html>
+<body>
+<details>
+<summary>Highlight</summary>
+ <ul> 
+  	<li>A quantitative"Iterative Design Route" based on virtual reality experiment different from the traditional design route.</li>
+	<li>Collect objective and subjective datas through emotional measurement, eye movement recording and questionnaire.</li>
+	<li>Discover the correlation between critical environment variables and emotions.</li>
+	<li>Form a design guideline to improve the walking experience and the vitality of business.</li>
+</ul>
+</details>
+</body>
+</html>
+</li>
+</p>
+</ul>
+
+<b>Manuscript in prep</b>
+<ul>
+<li><p>  " A Thousand Cities with One Image " or "One City with a Thousand Images"? A Measurement of Visual Perception of Chinese Cities  <a href="markdown/pdf/images of cities.html">[Details]</a></i></p>
+<html>
+<body>
+<details>
+<summary>Highlight</summary>
+ <ul> 	
+	<li>"A Thousand Cities with One Image" is a generally accepted impression to Chinese cities but remains to be verified .</li>
+  	<li>Constructs an urban landscape perception system that integrates multidisciplinary knowledge and suitable for large-scale measurement.</li>
+	<li>Design a method to compare city image distances in multiple dementions.</li>
+	<li>Calculate the image of cities based on multi-source geographic data include street view images and mobile data.</li>
+	<li>Considering the differentiation views of the urban residents and visitors ,two kinds of Chinese city images issues are visualized from an empirical perspective.</li>
+</ul>
+</details>
+</body>
+</html>
+</li>
+</p>
+</ul>
+
+<ul>
+<li><p> 
+Recognation and Classfication of Architectual  Style of Contemporary Chinese Cities.  (Graduation Thesis in prep) </p>
+<html>
+<body>
+<details>
+<summary>Highlight</summary>
+ <ul> 	
+	<li>Comparing the architectural style differences among Chinese cities is the continue of the "Calculate the image of cities" study .</li>
+	<li>Chinese contemporary architectures have a mix of styles, which remained to be recognize and classify with deep learning methods.</li>
+  	<li>A suitable Chinese contemporary building facades dataset has remained a gap so far.</li>
+	<li>It will be  an interesting work to reveal the Chinses popular architectural style changes over time.</li>
+</ul>
+</details>
+</body>
+</html>
+</li>
+</ul>
+
+
+<h2>Internship Experience</h2>
+<b>2021.09 ~ 2022.01</b>&emsp;&emsp;<b>Graduate Teaching Assistant</b> in Urban Construction History Course, Peking University.
+
+<ul>
+<li>Assist the professor to prepare courseware, answer student questions and evaluate students' work. 
+</li>
+</ul>
+<b>2022.07 ~ 2022.08</b>&emsp;&emsp;<b>Assistant of Rural Development Department</b>, Qiaotou Town Goverment, Inner Mongolia, China.
+
+<ul>
+<li>Investigate and finish a report about the government in Chinese towns.</li>
+</ul>
+<b>2022.08 ~ 2022.10</b>&emsp;&emsp;<b>Assistant Urban Planners</b> China Academy of Urban Planning and Design.
+
+<ul>
+<li>Participate in the Comprehensive Urban Design of Fuzhou, Fujian. Responsible for urban data analytics. </li>
+</ul>
+
+<h2>Relevant Skills</h2>
+<td align="left"><p><b>Coding Skills </b><br /></p>
+
+<ul>
+<li>Have a good command of  Python, SQL , Mathematical basis</i><br />
+</li>
+</ul>
+<td align="left"><p><b>Spatial Planning </b><br /></p>
+
+<ul>
+<li>Have a good command of GIS, Rhino, Lumioin <br />
+</li>
+</ul>
+
+<div id="footer">
+<div id="footer-text">
+<br>Page generated 2022-10-25, by Sikai Fan.
+</div>
+</div>

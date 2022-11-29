@@ -36,8 +36,8 @@ We aim to transform the a commercial street in a  urban renewal project. Accordi
        Figure2: A perspective of the 8 schemes  
     </div>
 </center>
-<iframe class="iframe_video"  height=498 width=510 src=https://player.bilibili.com/player.html?aid=903099322&bvid=BV1rP4y1X7EH&cid=903895041&page=1" > </iframe>
 
+<iframe style='width: 600px;height: 338px' frameborder='no' allowfullscreen mozallowfullscreen webkitallowfullscreen src='http://go.plvideo.cn/front/video/preview?vid=9ea0c9f904bb16653f7c34a5dd21d524_9'></iframe>
 
 ###  Emotion Measurement 
 
@@ -60,9 +60,9 @@ A situation will arouse  two kinds of  emotional responses: **Peripheral nervous
 </center>
 
 
-<iframe class="iframe_video" height=498 width=510  src="https://player.bilibili.com/player.html?aid=518104688&bvid=BV1Dg411p7Xk&cid=903889997&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<iframe style='width: 600px;height: 338px' frameborder='no' allowfullscreen mozallowfullscreen webkitallowfullscreen src='http://go.plvideo.cn/front/video/preview?vid=9ea0c9f904cfadf4316f73e6618f5bd7_9'></iframe>
 
-
+<iframe src="//player.bilibili.com/player.html?aid=775438717&bvid=BV1q14y1J7Kv&cid=900038872&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
 
 ### Result
@@ -88,6 +88,7 @@ A situation will arouse  two kinds of  emotional responses: **Peripheral nervous
     color: #999;
     padding: 2px;">
        Figure5: Eye movement recording.<br>
+
 
 
 
