@@ -31,16 +31,12 @@ Through reviewing the existing theories, knowledge and experience in architectur
 
 
 
-<img src="https://fsk-tuchaung.oss-accelerate.aliyuncs.com/img/123122.png" alt="123122" style="zoom: 33%;" />
-
 
 
 
 * **Residents vs Tourists: A Comparison of the Urban Landscape Perception of Different  Subjects**
 
 <img src="https://fsk-tuchaung.oss-accelerate.aliyuncs.com/img/131qwe.png" style="zoom:50%;" />
-
-![sqwrc](https://fsk-tuchaung.oss-accelerate.aliyuncs.com/img/sqwrc.png)
 
 
 
