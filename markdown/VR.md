@@ -62,8 +62,6 @@ A situation will arouse  two kinds of  emotional responses: **Peripheral nervous
 
 <iframe style='width: 600px;height: 338px' frameborder='no' allowfullscreen mozallowfullscreen webkitallowfullscreen src='http://go.plvideo.cn/front/video/preview?vid=9ea0c9f904cfadf4316f73e6618f5bd7_9'></iframe>
 
-<iframe src="//player.bilibili.com/player.html?aid=775438717&bvid=BV1q14y1J7Kv&cid=900038872&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-
 
 ### Result
 
