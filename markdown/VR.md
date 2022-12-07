@@ -36,8 +36,7 @@ We aim to transform the a commercial street in a  urban renewal project. Accordi
        Figure2: A perspective of the 8 schemes  
     </div>
 </center>
-
-<iframe style='width: 600px;height: 338px' frameborder='no' allowfullscreen mozallowfullscreen webkitallowfullscreen src='http://go.plvideo.cn/front/video/preview?vid=9ea0c9f904bb16653f7c34a5dd21d524_9'></iframe>
+<iframe style='width: 600px;height: 338px' frameborder='no' allowfullscreen mozallowfullscreen webkitallowfullscreen src='https://go.plvideo.cn/front/video/preview?vid=9ea0c9f904bb16653f7c34a5dd21d524_9'></iframe>
 
 ###  Emotion Measurement 
 
@@ -60,7 +59,7 @@ A situation will arouse  two kinds of  emotional responses: **Peripheral nervous
 </center>
 
 
-<iframe style='width: 600px;height: 338px' frameborder='no' allowfullscreen mozallowfullscreen webkitallowfullscreen src='http://go.plvideo.cn/front/video/preview?vid=9ea0c9f904cfadf4316f73e6618f5bd7_9'></iframe>
+<iframe style='width: 600px;height: 338px' frameborder='no' allowfullscreen mozallowfullscreen webkitallowfullscreen src='https://go.plvideo.cn/front/video/preview?vid=9ea0c9f904cfadf4316f73e6618f5bd7_9'></iframe>
 
 
 ### Result
