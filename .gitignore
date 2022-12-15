@@ -1,3 +1,20 @@
+# macOS
+.DS_Store
 
-markdown/video/scheme introduction.mp4
-markdown/video/VR_lab.mp4
+# Windows
+Thumbs.db
+
+# phpMyAdmin
+irb-x/
+irb-x@
+irb-x*
+
+# Piwic
+analytics/
+analytics@
+analytics*
+
+# Let's Encrypt
+.well-known/
+.well-known@
+.well-known*
